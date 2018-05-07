@@ -1,0 +1,32 @@
+.header
+{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	text-align: center;
+}
+
+.main
+{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.sidebar
+{
+	position: absolute;
+	width: 10%;
+	top:0;
+	bottom: 0;
+	left: 0;
+	border-radius: 10px;
+	background-color: blue;
+}
+
+body, html
+{
+	height: 100%;
+	margin: 0;
+}

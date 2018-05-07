@@ -1,5 +1,5 @@
-## Projet Mickey Mouse
+# Projet Mickey Mouse
 
-# Introduction
+## Introduction
 
 Projet Mickey Mouse pour tester Flexbox CSS.
