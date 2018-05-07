@@ -1,0 +1,89 @@
+h1
+{
+	text-align: center;
+	text-shadow: 4px 4px 4px white;
+	font-size: 50px;
+	font-family: 'intro_head_r', 'sans-serif';
+}
+
+h2
+{
+	text-shadow: 2px 2px 2px white;
+	font-family: 'intro_rust_g', 'sans-serif';
+}
+
+.imageflottante
+{
+    float : right;
+    border : 1px solid #000;
+    box-shadow: -10px 10px 20px #000;
+}
+
+body
+{
+    height: 100%;
+    margin: 0;
+	background: url("img/fond1.jpg") fixed no-repeat;
+	color: white;
+}
+
+.survol:hover
+{
+	text-decoration: underline;
+	color: silver;
+}
+
+.header
+{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.main
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.sidebar
+{
+    color: teal;
+    position: absolute;
+    width: 5%;
+    top:0;
+    bottom: 0;
+    left: 0;
+    border-radius: 10px;
+    background-color: teal;
+}
+
+html
+{
+    height: 100%;
+    margin: 0;
+}
+
+@font-face {
+    font-family: 'intro_rust_g';
+    src: url('introrustg-base2line-webfont.eot');
+    src: url('introrustg-base2line-webfont.eot?#iefix') format('embedded-opentype'),
+         url('introrustg-base2line-webfont.woff2') format('woff2'),
+         url('introrustg-base2line-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'intro_head_r';
+    src: url('introheadr-base-webfont.eot');
+    src: url('introheadr-base-webfont.eot?#iefix') format('embedded-opentype'),
+         url('introheadr-base-webfont.woff2') format('woff2'),
+         url('introheadr-base-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
